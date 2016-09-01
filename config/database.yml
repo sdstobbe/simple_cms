@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: simple_cms_development
   pool: 5
-  username: simple_cms
+  username: postgres
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: simple_cms_test
   pool: 5
-  username: simple_cms
+  username: postgres
   password:
 
 production:
@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: simple_cms_production
   pool: 5
-  username: simple_cms
+  username: postgres
   password:
